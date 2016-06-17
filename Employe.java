@@ -33,7 +33,7 @@ public class Employe {
 		
 	}
 	//Methods
-	public List<Creneau> getCreneauEmp(){
+	public List<Creneau> getCreneauxLibresEmp(){
 		//TODO
 		return new ArrayList<Creneau>();
 	}
