@@ -34,10 +34,10 @@ public class Employe {
 	}
 	//Methods
 	public List<Creneau> getCreneauxLibresEmp(int nbCreneaux){
-		ArrayList<Creneaux> plageMax = new ArrayList<Creneau>();
+		ArrayList<Creneaux> plageMaxJour = new ArrayList<Creneau>();
 		
 		
-		return new ArrayList<Creneau>();
+		return plageMaxJour;
 	}
 	public List<Creneau> getEdt(){		
 		return this.creneaux;		
