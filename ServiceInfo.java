@@ -12,6 +12,7 @@ public class ServiceInfo extends Service {
 		//Attributs
 		ArrayList<Materiel> materiels;
 		ArrayList<Logiciel> logiciels;
+		ArrayList<TacheMateriel> tachesEnAttente;
 	
 		//Constructeurs
 		public ServiceInfo(String nom, Map<String, Employe> employes) {
