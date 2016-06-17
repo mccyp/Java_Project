@@ -4,6 +4,7 @@ import java.util.*;
 
 public abstract class Service {
 
+	//Attributes
 	private String nom;
 	
 	private Map<String,Employe> employes;
