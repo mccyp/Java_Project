@@ -39,7 +39,7 @@ public abstract class Service {
 	}
 	
 	//Returns all schedules 
-	private List<Creneau> getAllEdt(Map<String, Employe> employes){
+	private List<Creneau> getAllEdt(){
 		
 		List<Creneau> creneaux = new ArrayList<Creneau>();
 		
